@@ -1,0 +1,4 @@
+suomi	English
+yksi	one
+kaksi	two
+kolme	three
