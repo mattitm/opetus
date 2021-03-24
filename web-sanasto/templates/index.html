@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Sanakysely</title>
+		<script src="jquery-3.6.0.min.js"></script>
+		<script src="sanakysely.js"></script>
+	</head>
+	<body>
+		<h1>Sanakysely</h1>
+		<form>
+			<label for="kieli">Valitse kysyttävä kieli:</label>
+			<select id="kieli" name="kieli">
+				<option value="0">{{ kieli1 }}</option>
+				<option value="1">{{ kieli2 }}</option>
+			</select>
+		</form>
+		<form id="tarkista">
+			<label for="kysely">Sana</label><br>
+			<input type="text" id="kysely" name="kysely" autocomplete="off">
+			<input type="submit" value="Tarkista">
+			<div id="oikein">Oikein!</div>
+		</form> 
+	</body>
+</html>
